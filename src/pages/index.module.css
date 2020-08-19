@@ -5,3 +5,14 @@
     background-position: center;
     background-repeat: no-repeat
 }
+
+.centering {
+    top: 40%;
+    position: absolute;
+}
+
+.typing {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: #2B2B2B;
+}

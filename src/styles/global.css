@@ -1,5 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Montserrat:400,400i,600,600i');
+
 body,html {
+    font-family: 'Roboto', 'sans-serif' !important;
     background-color: white;
+    color: #2B2B2B;
     height: 100%;
     margin: 0;
 }
+
+.navText :hover {
+    border-bottom: 3px solid red;
+}
+
+
+/* h1 untuk landing page
+    h2 untuk landing page
+    h3 untuk judul halaman
+    h4 untuk subab (dalem judul halaman)
+*/
+
+@media screen and (min-width:768px) {
+    h1 {
+        font-family: 'Montserrat' !important;
+        font-size: 62px !important;
+        font-weight: 600 !important;
+        color: #2B2B2B;
+    }
+}
+
+@media screen and (max-width:767px) {
+    h1 {
+        font-family: 'Montserrat' !important;
+        font-weight: 600 !important;
+        color: #2B2B2B;
+    }
+}
+

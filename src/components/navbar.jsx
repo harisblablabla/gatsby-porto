@@ -5,15 +5,16 @@ import {Navbar,Nav} from 'react-bootstrap'
 
 export default function Navbarr() {
     
+
     return(
         <div>
             <Navbar expand="lg">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className="ml-auto justify-content-end">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">Project</Nav.Link>
-                <Nav.Link href="#link">About</Nav.Link>
+                <Nav className={`${navbarStyle.nav} ml-auto justify-content-end nav-link`}>
+                <Nav.Link className={`${navbarStyle.navText} navText`} href="index">Home</Nav.Link>
+                <Nav.Link className={`${navbarStyle.navText} navText`} href="#link">Project</Nav.Link>
+                <Nav.Link className={`${navbarStyle.navText} navText`} href="#link">About</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             </Navbar>
