@@ -8,6 +8,6 @@
     color: #2B2B2B !important;
 }
 
-.navText :hover {
-    border-bottom: 3px solid black;
+.navText  {
+    /* border-bottom: 3px solid black; */
 }

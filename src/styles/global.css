@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto|Montserrat:400,400i,600,600i');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400|Montserrat:400,400i,500,600,600i');
 
 body,html {
     font-family: 'Roboto', 'sans-serif' !important;
@@ -6,6 +6,10 @@ body,html {
     color: #2B2B2B;
     height: 100%;
     margin: 0;
+}
+
+h1, h2, h3, p {
+    color: #2B2B2B;
 }
 
 .navText :hover {
@@ -26,6 +30,15 @@ body,html {
         font-weight: 600 !important;
         color: #2B2B2B;
     }
+
+    h2 {
+        font-family: 'Montserrat';
+        font-weight: 500;
+    }
+
+    p {
+        font-weight: 400;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -33,6 +46,10 @@ body,html {
         font-family: 'Montserrat' !important;
         font-weight: 600 !important;
         color: #2B2B2B;
+    }
+
+    p {
+        font-weight: 300;
     }
 }
 
