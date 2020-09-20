@@ -14,7 +14,17 @@ module.exports = {
     `I am a Software Engineer who highly motivated to learn/explore new tech with a one-year+ professional career. Familiar with fintech system (payment gateway). Specialties in frontend development (Angular,React.js) and UI Design (UID). Backend have an experience with Java (Spring Boot).`,
     `Currently, I worked at DOKU, PT Nusa Satu Inti Artha in payment directorate (growth division). I was responsible for new back office DOKU payment. DOKU tech stack for frontend development using angular, but outside of my work on DOKU, I used react.js for frontend. I have an experience too in DOKU with Spring Boot, automated software testing and are used to working with the agile.`,
     `For any enquiries, or just to say hello, get in touch and contact me on`
-  ]
+  ],
+    menuLinks: [
+      {
+        name: `BRIxGoogle Hackaton 2020`,
+        link: `/project-1/`
+      },
+      {
+        name: `Redesign SIAPPTN Landing Page`,
+        link: `/project-2/`
+      }
+    ], 
   },
   plugins: [ 
 ],
