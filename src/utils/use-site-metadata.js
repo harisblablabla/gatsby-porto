@@ -11,10 +11,6 @@ export const useSiteMetadata = () => {
                         typing
                         link
                         about
-                        menuLinks {
-                            name
-                            link
-                        }
                     }
                 }
             }

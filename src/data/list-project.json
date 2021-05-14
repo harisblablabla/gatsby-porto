@@ -1,0 +1,20 @@
+[
+    {
+        "title": "BRIxGoogle Hackaton 2020",
+        "link": "/project-3/",
+        "desc": "BRIxGoogle Hackaton was held in 3 cities (Jakarta, Bandung, Surabaya). This event was created to encourage economic digitalization with UMKM. And lastly, each city will have three winners.",
+        "image": "IMG_5541.jpg"
+      },
+      {
+        "title": "Redesign SIAPPTN.com Landing Page",
+        "link": "/project-2/",
+        "desc": "SIAPPTN is a website that provides various kinds of learning solutions, especially for high school and alumni students in preparation for the PTN entrance test.",
+        "image": "project2.png"
+      },
+      {
+        "title": "Darahku - UX Study Case",
+        "link": "/project-1/",
+        "desc": "Back in 2016, This is my very first UX study case project. From the lack of blood stock in this state, I tried to do research and solve the problem.",
+        "image": "project1.jpg"
+      }
+]

@@ -1,5 +1,5 @@
 import React from 'react'
-import navbarStyle from './navbar.module.css'
+import * as navbarStyle from './navbar.module.css'
 import {Navbar,Nav} from 'react-bootstrap'
 import {Link} from 'gatsby'
 // import Nav from 'react-bootstrap/Nav'

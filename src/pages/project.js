@@ -1,23 +1,30 @@
-import React from 'react'
-import Container from 'react-bootstrap/Container'
-import Navbarr from '../components/navbar'
-import { Link } from "gatsby"
-import { useSiteMetadata } from './../utils/use-site-metadata'
+import React, {lazy, Suspense} from 'react'
+import { Col, Row } from 'react-bootstrap'
+import Container from "react-bootstrap/Container"
 
 
-export default function Project() {
 
-    const { menuLinks } = useSiteMetadata()
-    console.log(menuLinks)
-    return (            
+export default function Project({data}) {
+
+    const Navbar = lazy( () => import('./../components/navbar'))
+    const Footer = lazy( () => import('./../components/footer'))
+    const PhotoProject = lazy( () => import('./../components/photo-project'))
+
+    const renderLoader = () => <p>loading</p>
+
+    return(
         <div>
+            <Suspense fallback={renderLoader()}>
             <Container>
-                <Navbarr/>
-                <h2>ddd</h2>
-                {menuLinks.map((project, index) => (
-        <p key={index}>Hello, {project.name} from {project.link}!</p>
-    ))}
-            </Container>            
+                <Navbar/>
+                <Row className={`justify-content-center mt-5`}>
+                    <Col md={10} className={`px-4`}> 
+                        <PhotoProject/>  
+                    </Col>
+                </Row>
+            </Container>
+            <Footer/>
+            </Suspense>
         </div>
-    )
+    ) 
 }

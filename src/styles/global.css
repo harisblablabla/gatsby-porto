@@ -2,15 +2,31 @@
 
 body,html {
     font-family: 'Roboto', 'sans-serif' !important;
-    background-color: white;
+    background-color: #F5F8FB !important;
     color: #2B2B2B;
     height: 100%;
     margin: 0;
 }
 
-h1, h2, h3, p {
+h1, h2, h3, h4,h5,h6, p {
     color: #2B2B2B;
 }
+
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 500;
+}
+
+h4 {
+    font-family: 'Montserrat';
+    font-size: 22px !important;
+    font-weight: 600 !important;
+}
+
+h5 {
+    font-weight: 600 !important;
+}
+
 
 .navText :hover {
     border-bottom: 3px solid red;
@@ -20,7 +36,7 @@ h1, h2, h3, p {
 /* h1 untuk landing page
     h2 untuk landing page
     h3 untuk judul halaman
-    h4 untuk subab (dalem judul halaman)
+    h5 untuk subab (dalem judul halaman)
 */
 
 @media screen and (min-width:768px) {
@@ -31,13 +47,10 @@ h1, h2, h3, p {
         color: #2B2B2B;
     }
 
-    h2 {
+    h3 {
         font-family: 'Montserrat';
-        font-weight: 500;
-    }
-
-    p {
-        font-weight: 400;
+        font-size: 48px !important;
+        font-weight: 500 !important;
     }
 }
 

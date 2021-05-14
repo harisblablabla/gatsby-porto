@@ -1,0 +1,64 @@
+const path = require('path')
+const listProject = require('./src/data/list-project.json')
+
+const IMAGE_PATH = './src/images'
+
+
+exports.sourceNodes = ({actions, createNodeId, createContentDigest}) => {
+    listProject.forEach( (card) => {
+        // 1. Extract the card data.
+        const {
+            title,
+            link,
+            desc,
+            image
+        } = card
+
+        // // BIKIN IMAGE
+        // // 1. name, extension and absolute path are required to build a File node ()
+        const {name, ext} = path.parse(image)
+        const absolutePath = path.resolve(__dirname, IMAGE_PATH, image)
+
+        // // 2. Build a data shape that corresponds to a File node that Sharp can process
+        const data = {
+            name,
+            ext,
+            absolutePath,
+            extension: ext.substring(1)
+        }
+
+        // // 3. Build the image node using our data
+        const imageNode = {
+            ...data,
+            id: createNodeId(`card-image-${name}`),
+            internal: {
+                type: 'PortfolioCardImage',
+                contentDigest: createContentDigest(data)
+            }
+        }
+
+        // // 4. Create the node. When imageNode is created,
+        // //    Sharp adds childImageSharp to the node
+        actions.createNode(imageNode)
+
+
+
+        // 2. Build the PortfolioCard node. Note that most fields simply correspond to
+        //    to our JSON data.
+        const node = {
+            title,
+            link,
+            desc,
+            // // 5. add image node
+            image: imageNode,
+            id: createNodeId(`card-${title}`),
+            internal:{
+                type: 'PortfolioCard',
+                contentDigest: createContentDigest(card)
+            }
+        }
+
+        // 3. Create the node
+        actions.createNode(node)
+    })
+}

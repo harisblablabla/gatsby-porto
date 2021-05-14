@@ -1,7 +1,7 @@
 import React from "react"
 import Container from "react-bootstrap/Container"
 import Navbarr from "../components/navbar"
-import styleIndex from './index.module.css'
+import * as styleIndex from './index.module.css'
 import Typed from 'react-typed';
 import { useSiteMetadata } from './../utils/use-site-metadata'
 
