@@ -11,9 +11,9 @@ module.exports = {
     title: `Hi! Haris is Here`,
     typing: [`Software Engineer`,`Frontend Engineer`,`Frontend Dev`,`UI Designer`,`UX Enthusiast`,`Web Developer`, `Web Designer`],
     link: [`https://medium.com/@haris.fadhilah21`,`https://github.com/harisblablabla`,`https://linkedin.com/in/harris-fadhilah/`],
-    about: [`Hmm hello, I’m Haris Fadhilah; you can call me Haris/Harris; living in Jakarta;a geek who loves sports (basketball/football/american football/skate/Etc.), films, and history `,
-    `I am a Software Engineer who is highly motivated to learn/explore new tech with a two-years professional career. Familiar with fintech system (payment gateway). Specialties in frontend development (Angular,React.js) and UI Design (UID). Backend has experience with Java (Spring Boot).`,
-    `I currently worked at DOKU, PT Nusa Satu Inti Artha, in the payment directorate (growth division). I was responsible for the new back office DOKU payment. DOKU tech stack for frontend development using angular, but outside of my work on DOKU, I used react.js for frontend. And I had experience in DOKU with Spring Boot, automated software testing, and are used to working with the agile.`,
+    about: [`hello, I’m Haris Fadhilah; living in Jakarta;a geek who loves sports, and films.`,
+    `I am a Software Engineer who is highly motivated to learn or explore new tech with a two-years professional career. Familiar with fintech system (payment gateway). Specialties in frontend development (Angular,React.js) and UI Design. Backend has experience with Java (Spring Boot).`,
+    `I currently worked at DOKU, PT Nusa Satu Inti Artha; has successfully created Jokul by DOKU (integrated payment platform) with Angular micro frontend, and are used to working in the agile.`,
     `For any enquiries, or just to say hello, get in touch and contact me on`
   ]
   },

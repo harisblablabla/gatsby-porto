@@ -1,7 +1,6 @@
 import React, {lazy, Suspense} from 'react'
-import { Col, Row } from 'react-bootstrap'
-import Container from "react-bootstrap/Container"
-
+import {Helmet} from 'react-helmet'
+import { Col, Row, Container } from 'react-bootstrap'
 
 
 export default function Project({data}) {
@@ -15,6 +14,14 @@ export default function Project({data}) {
     return(
         <div>
             <Suspense fallback={renderLoader()}>
+            <Helmet htmlAttributes={{lang: 'en'}}>
+                  <meta charSet="utf-8"/>
+                  <meta name="description" content="project from portflio haris fadhilah"/>
+                  <meta name="keywords" content="project portfolio haris fadhilah list work" />
+                  <meta name="robots" content="index, follow" />
+                  <title>Project List</title>
+                  <link rel="canonical" href="https://harisfadhilah.com/project/"/>
+            </Helmet>
             <Container>
                 <Navbar/>
                 <Row className={`justify-content-center mt-5`}>

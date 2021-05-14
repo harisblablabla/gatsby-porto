@@ -27,6 +27,7 @@ export default function Project3(props) {
                   <meta name="keywords" content="hackaton portfolio haris fadhilah" />
                   <meta name="robots" content="index, follow" />
                   <title>Project 3 - BRIxGoogle Hackaton 2020</title>
+                  <link rel="canonical" href="https://harisfadhilah.com/project-3/"/>
                 </Helmet>
                 <Container>
                     <Navbar/>

@@ -4,6 +4,7 @@ import Navbarr from "../components/navbar"
 import * as styleIndex from './index.module.css'
 import Typed from 'react-typed';
 import { useSiteMetadata } from './../utils/use-site-metadata'
+import {Helmet} from 'react-helmet'
 
 import medium from '../../static/images/medium-tile-2b.svg'
 import linkedin from '../../static/images/linkedin-tile-2b.svg'
@@ -15,15 +16,20 @@ export default function Home() {
 
   return (
     <div className={styleIndex.bgIndex}>
+            <Helmet htmlAttributes={{lang: 'en'}}>
+                  <meta charSet="utf-8"/>
+                  <meta name="description" content="this is a portfolio website, owned by haris fadhilah"/>
+                  <meta name="keywords" content="haris fadhilah is a software engineer frontend engineer ui designer web developer" />
+                  <meta name="robots" content="index, follow" />
+                  <title>Portfolio - Haris</title>
+                  <link rel="canonical" href="https://harisfadhilah.com"/>
+            </Helmet>
        <Container>
         <Navbarr/>
         <div className={styleIndex.centering}>
         <h1>{title}</h1>
           <div>
                 <Typed
-                    typedRef = { (type) => {
-                      
-                    } }
                     strings={typing}
                     typeSpeed={50}
                     backSpeed={70}

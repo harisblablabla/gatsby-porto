@@ -8,7 +8,7 @@ import { Col, Row } from 'react-bootstrap'
 export default function PhotoProject() {
 
     const pStyle = {
-      color: '#B3B3B3'
+      color: '#4d4d4d'
     }
 
     const photoStyle = {
@@ -42,7 +42,7 @@ export default function PhotoProject() {
               <Row className={'pt-4'}>
                 <Col md={4}>
                   <Link to={node.link}>
-                   <GatsbyImage style={photoStyle} className={'mb-3'} image={node.image.childImageSharp.gatsbyImageData} alt="" />
+                   <GatsbyImage style={photoStyle} className={'mb-3'} image={node.image.childImageSharp.gatsbyImageData} alt={`photo ` + node.title} />
                   </Link>
                 </Col>
                 <Col md={8} className={'border-bottom pb-4'}>
