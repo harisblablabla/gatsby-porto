@@ -21,6 +21,7 @@ export default function Project({data}) {
                   <meta name="robots" content="index, follow" />
                   <title>Project List</title>
                   <link rel="canonical" href="https://harisfadhilah.com/project/"/>
+                  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
             </Helmet>
             <Container>
                 <Navbar/>

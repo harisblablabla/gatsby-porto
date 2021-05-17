@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400|Montserrat:400,400i,500,600,600i');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto:300,400|Montserrat:400,500,600&display=swap'); */
 
+/* 400i,600i */
 body,html {
     font-family: 'Roboto', 'sans-serif' !important;
     background-color: #F5F8FB !important;

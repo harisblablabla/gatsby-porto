@@ -49,6 +49,16 @@ module.exports = {
         `gatsby-remark-lazy-load`,
       ]
       } 
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Roboto\:300,400`,
+          `Montserrat\:400,500,600`
+        ],
+        display: 'swap'
+      }
     }
 ],
 }
