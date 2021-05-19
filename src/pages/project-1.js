@@ -11,11 +11,13 @@ export default function Project1(props) {
     const Footer = lazy( () => import('./../components/footer'))
 
     const renderLoader = () => <p>loading</p>
+    const isSSR = typeof window === "undefined"
 
     const arrData = props.data.project.nodes
 
     return(
         <div>
+          {!isSSR && (
             <Suspense fallback={renderLoader()}>
             <Helmet htmlAttributes={{lang: 'en'}}>
                   <meta charSet="utf-8"/>
@@ -87,6 +89,7 @@ export default function Project1(props) {
             </Container>
             <Footer/>
             </Suspense>
+          )}
         </div>
     )
 }

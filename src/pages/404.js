@@ -5,9 +5,12 @@ const Navbar = lazy( () => import('./../components/navbar'))
 const Footer = lazy( () => import('./../components/footer'))
 
 const renderLoader = () => <p>loading</p>
+const isSSR = typeof window === "undefined"
 
 const NotFoundPage = () => (
-  <Suspense fallback={renderLoader()}>
+  <div>
+    {!isSSR && (
+      <Suspense fallback={renderLoader()}>
       <Container>
         <Navbar />
           <h1>NOT FOUND</h1>
@@ -15,6 +18,8 @@ const NotFoundPage = () => (
         <Footer />
       </Container>
   </Suspense>
+    )}
+  </div>
 )
 
 export default NotFoundPage
