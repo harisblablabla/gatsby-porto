@@ -12,7 +12,7 @@ module.exports = {
     typing: [`Software Engineer`,`Frontend Engineer`,`Frontend Dev`,`UI Designer`,`UX Enthusiast`,`Web Developer`, `Web Designer`],
     link: [`https://medium.com/@haris.fadhilah21`,`https://github.com/harisblablabla`,`https://linkedin.com/in/harris-fadhilah/`],
     about: [`hello, I’m Haris Fadhilah; living in Jakarta;a geek who loves sports, and films.`,
-    `I am a Software Engineer who is highly motivated to learn or explore new tech with a two-years professional career. Familiar with fintech system (payment gateway). Specialties in frontend development (Angular,React.js) and UI Design. Backend has experience with Java (Spring Boot).`,
+    `I am a Software Engineer who is highly motivated to learn or explore technology with a two-years professional career. Familiar with fintech system (payment gateway). Specialties in frontend development (Angular,React.js) and UI Design. Backend has experience with Java (Spring Boot).`,
     `I currently worked at DOKU, PT Nusa Satu Inti Artha; has successfully created Jokul by DOKU (integrated payment platform) with Angular micro frontend, and are used to working in the agile.`,
     `For any enquiries, or just to say hello, get in touch and contact me on`
   ]
@@ -22,7 +22,15 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-transformer-yaml`, {
+    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "G-VJB517RVFT",
+        head: true
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: 'images',
