@@ -18,7 +18,7 @@ export default function Home() {
     <div className={styleIndex.bgIndex}>
             <Helmet htmlAttributes={{lang: 'en'}}>
                   <meta charSet="utf-8"/>
-                  <meta name="description" content="this is a portfolio website, owned by haris fadhilah"/>
+                  <meta name="description" content="This is a portfolio website, owned by haris fadhilah. Haris is a software engineer based in Jakarta"/>
                   <meta name="keywords" content="haris fadhilah is a software engineer frontend engineer ui designer web developer" />
                   <meta name="robots" content="index, follow" />
                   <title>Haris Fadhilah - Portfolio</title>
