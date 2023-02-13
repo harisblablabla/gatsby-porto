@@ -9,11 +9,11 @@ module.exports = {
 
   siteMetadata: {
     title: `Hi! Haris is Here`,
-    typing: [`Software Engineer`,`Frontend Engineer`,`Frontend Dev`,`UI Designer`,`UX Enthusiast`,`Web Developer`, `Web Designer`],
+    typing: [`iOS Engineer`,`Product Enthusiast`,`Frontend Engineer`,`Web Developer`, `Web Designer`],
     link: [`https://medium.com/@haris.fadhilah21`,`https://github.com/harisblablabla`,`https://linkedin.com/in/harris-fadhilah/`],
-    about: [`hello, I’m Haris Fadhilah; living in Jakarta;a geek who loves sports, and films.`,
-    `I am a Software Engineer who is highly motivated to learn or explore technology with a two-years professional career. Familiar with fintech system (payment gateway). Specialties in frontend development (Angular,React.js) and UI Design. Backend has experience with Java (Spring Boot).`,
-    `I currently worked at DOKU, PT Nusa Satu Inti Artha; has successfully created Jokul by DOKU (integrated payment platform) with Angular micro frontend, and are used to working in the agile.`,
+    about: [`Hi!, I’m Haris Fadhilah; living in Jakarta;a geek who loves sports, and films.`,
+    `I am a highly motivated software engineer with 4 years of experience in delivering innovative software solutions. My expertise lies in product, iOS, and frontend web development, where I have demonstrated my ability to design and develop user-friendly applications. My strong technical background, combined with experience working on a product, enables me to bring a unique perspective to any project I work on.`,
+    `Throughout my career, I have honed my project management skills, working in Agile environments and collaborating with cross-functional teams. I am passionate about delivering high-quality software solutions that meet the needs of end-users and drive business success.`,
     `For any enquiries, or just to say hello, get in touch and contact me on`
   ]
   },
