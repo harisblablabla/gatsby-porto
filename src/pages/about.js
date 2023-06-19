@@ -20,7 +20,7 @@ export default function About() {
                 <Suspense fallback={renderLoader()}>
                 <Helmet htmlAttributes={{lang: 'en'}}>
                       <meta charSet="utf-8"/>
-                      <meta name="description" content="haris fadhilah is a software engineer with two years profesional career, specialties in frontend development with react or angular, and in ui design. backend had an experience with java springboot"/>
+                      <meta name="description" content="haris fadhilah is a software engineer with four years profesional career, specialties in frontend development with react or angular, and in ui design. backend had an experience with java springboot"/>
                       <meta name="keywords" content="haris fadhilah is a software engineer frontend engineer ui designer web developer" />
                       <meta name="robots" content="index, follow" />
                       <title>About Me</title>
@@ -35,7 +35,8 @@ export default function About() {
                             <p  className={`mt-5`}>{about[0]}</p>
                             <p  className={`mt-3`}>{about[1]}</p>
                             <p  className={`mt-3`}>{about[2]}</p>
-                            <p  className={`mt-3`}>{about[3]} <a href = "mailto: hallo@harisfadhilah.com">this email</a> </p>
+                            <p  className={`mt-3`}>{about[3]}</p>
+                            <p  className={`mt-3`}>{about[4]} <a href = "mailto: haris.fadhilah21@gmail.com">this email</a> </p>
                         </Col>
                     </Row>
                 </Container>

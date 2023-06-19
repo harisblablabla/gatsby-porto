@@ -11,10 +11,11 @@ module.exports = {
     title: `Hi! Haris is Here`,
     typing: [`iOS Engineer`,`Product Enthusiast`,`Frontend Engineer`,`Web Developer`, `Web Designer`],
     link: [`https://medium.com/@haris.fadhilah21`,`https://github.com/harisblablabla`,`https://linkedin.com/in/harris-fadhilah/`],
-    about: [`Hi!, I’m Haris Fadhilah; living in Jakarta;a geek who loves sports, and films.`,
-    `I am a highly motivated software engineer with 4 years of experience in delivering innovative software solutions. My expertise lies in product, iOS, and frontend web development, where I have demonstrated my ability to design and develop user-friendly applications. My strong technical background, combined with experience working on a product, enables me to bring a unique perspective to any project I work on.`,
-    `Throughout my career, I have honed my project management skills, working in Agile environments and collaborating with cross-functional teams. I am passionate about delivering high-quality software solutions that meet the needs of end-users and drive business success.`,
-    `For any enquiries, or just to say hello, get in touch and contact me on`
+    about: [`Hi!, I’m Haris Fadhilah; living in Jakarta; loves sports, and films. (cinephile?? lol)`,
+    `I am a highly motivated person with four years of experience in delivering innovative products. My expertise lies in product, iOS, and frontend web development, where I have demonstrated my ability to design and develop user-friendly applications. My strong technical background, combined with experience working on a product, enables me to bring a unique perspective to any project I work on.`,
+    `Throughout my career, I have honed my communication skills, working in Agile environments and collaborating with cross-functional teams. I am passionate about delivering high-quality products that meet the needs of end-users and drive business success.`,
+    `Currently work as a financial management consultant with a passion for improving financial literacy in Indonesian society. My mission is to empower individuals with the knowledge to effectively manage financial risks. Through my expertise in software development and financial consulting, I strive to create innovative solutions that make financial concepts and risk management accessible to everyone.`,
+    `Join me on this journey as we work together to enhance the financial well-being of individuals by send message to`,
   ]
   },
   plugins: [ 
