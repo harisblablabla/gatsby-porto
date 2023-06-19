@@ -35,7 +35,7 @@ export default function Project1(props) {
                       <h3 className={'my-2'}>{arrData[0].title}</h3>           
                     </Col>
                     <Col md={12} className={`px-4`}>
-                      <GatsbyImage className={'my-5 lazyload'} style={{borderRadius:"8px"}} image={arrData[0].img[0].images.childImageSharp.gatsbyImageData} alt="cover"/>    
+                      <GatsbyImage className={'my-5 lazyload'} style={{borderRadius:"16px"}} image={arrData[0].img[0].images.childImageSharp.gatsbyImageData} alt="cover"/>    
                     </Col>
                     <Col md={8} className={`px-4`}>
                       <p>{arrData[0].content[0].paragraph}</p>
@@ -52,11 +52,11 @@ export default function Project1(props) {
                       <h5 className={'my-3'}>{arrData[2].title}</h5>
                       <p>{arrData[2].content[0].paragraph}</p>
                       <h6 className={'my-3'}><strong>{arrData[2].subtitle[0].item}</strong></h6>
-                      <GatsbyImage className={'lazyload'} style={{borderRadius:"8px"}} image={arrData[2].img[0].images.childImageSharp.gatsbyImageData} alt="flow1"/> 
+                      <GatsbyImage className={'lazyload'} style={{borderRadius:"16px"}} image={arrData[2].img[0].images.childImageSharp.gatsbyImageData} alt="flow1"/> 
                       <h6 className={'my-5'}><strong>{arrData[2].subtitle[1].item}</strong></h6>
-                      <GatsbyImage className={'lazyload'} style={{borderRadius:"8px"}} image={arrData[2].img[1].images.childImageSharp.gatsbyImageData} alt="flow2"/> 
+                      <GatsbyImage className={'lazyload'} style={{borderRadius:"16px"}} image={arrData[2].img[1].images.childImageSharp.gatsbyImageData} alt="flow2"/> 
                       <h6 className={'my-5'}><strong>{arrData[2].subtitle[2].item}</strong></h6>
-                      <GatsbyImage className={'lazyload'} style={{borderRadius:"8px"}} image={arrData[2].img[2].images.childImageSharp.gatsbyImageData} alt="flow3"/> 
+                      <GatsbyImage className={'lazyload'} style={{borderRadius:"16px"}} image={arrData[2].img[2].images.childImageSharp.gatsbyImageData} alt="flow3"/> 
 
                       <h5 className={'my-3'}>{arrData[3].title}</h5>
                       <p>{arrData[3].content[0].paragraph}</p>
