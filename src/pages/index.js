@@ -2,7 +2,7 @@ import React from "react"
 import Container from "react-bootstrap/Container"
 import Navbarr from "../components/navbar"
 import * as styleIndex from './index.module.css'
-import Typed from 'react-typed';
+import {ReactTyped} from 'react-typed';
 import { useSiteMetadata } from './../utils/use-site-metadata'
 import {Helmet} from 'react-helmet'
 
@@ -30,7 +30,7 @@ export default function Home() {
         <div className={styleIndex.centering}>
         <h1>{title}</h1>
           <div>
-                <Typed
+                <ReactTyped
                     strings={typing}
                     typeSpeed={50}
                     backSpeed={70}
@@ -38,6 +38,7 @@ export default function Home() {
                     loop
                     className={styleIndex.typing}
                 />
+                
                 <br/>
           </div>
           <a href={link[0]} target="_blank" rel="noreferrer noopener" >
