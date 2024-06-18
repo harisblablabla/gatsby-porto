@@ -12,18 +12,13 @@ export default function Project4(props) {
     const isSSR = typeof window === "undefined"
     const arrData = props.data.project.nodes
 
-    const productText = {
-        textAlign: 'center',
-        color: '#FF9D00'
-    }
-
     return (
         <div>
             {!isSSR && (
                 <Suspense fallback={renderLoader()}>
                 <Helmet htmlAttributes={{lang: 'en'}}>
                   <meta charSet="utf-8"/>
-                  <meta name="description" content="bri google hackaton winners, diendorse marketplace is an integrated application between influencers and businessmen"/>
+                  <meta name="description" content="FitFix is for you! We’ll help you to build a long-lasting diet lifestyle by chunking your weight loss goal, set your daily calorie goal, and evaluate your progress to minimize the chance of the yo-yo effect in dieting."/>
                   <meta name="keywords" content="fitfix diet application app store apple portfolio haris fadhilah" />
                   <meta name="robots" content="index, follow" />
                   <title>FitFix - Research Process</title>

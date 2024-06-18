@@ -26,10 +26,10 @@ export default function Project3(props) {
             <Helmet htmlAttributes={{lang: 'en'}}>
               <meta charSet="utf-8"/>
               <meta name="description" content="bri google hackaton winners, diendorse marketplace is an integrated application between influencers and businessmen"/>
-              <meta name="keywords" content="hackaton portfolio haris fadhilah" />
+              <meta name="keywords" content="hackaton portfolio haris fadhilah google bri banking financial" />
               <meta name="robots" content="index, follow" />
               <title>Project 3 - BRIxGoogle Hackaton 2020</title>
-              <link rel="canonical" href="https://harisf.tech/project-3/"/>
+              <link rel="canonical" href="https://haris.uno/project-3/"/>
               <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
             </Helmet>
             <Container>
