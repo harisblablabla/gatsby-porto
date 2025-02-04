@@ -29,7 +29,7 @@ export default function Project4(props) {
                     <Navbar/>
                     <Row className={`justify-content-center mt-5`}>
                         <Col md={8} className={`px-4`}>
-                            <h3 className={'my-2'}>FitFix - Research Phase</h3>           
+                            <h3 className={'my-2'}>FitFix App</h3>           
                         </Col>
                         <Col md={12} className={`px-4`}>
                             <GatsbyImage className={'mt-5 lazyload'} style={{borderRadius:"16px"}} image={arrData[0].images.childImageSharp.gatsbyImageData} alt="cover"/>  
@@ -38,7 +38,8 @@ export default function Project4(props) {
                             <h5 className={'my-4'}><strong>Introducing, FitFix</strong></h5>
                             <p>Have you ever been on a diet? But your weight is back to its original weight?? 😥 Well, FitFix is for you! We’ll help you to build a long-lasting diet lifestyle by chunking your weight loss goal, set your daily calorie goal, and evaluate your progress to minimize the chance of the yo-yo effect in dieting.</p>
                             <p>This project was done as a group (6 people) at the Apple Developer Academy. My role in the project is as a lead engineer, with more focus on application development (managing backlogs, prioritizing tasks, and unit testing). Before getting into application development, the research process from Fitfix is done together even though the roles in the team are different.</p>
-                            <h5 className={'my-4'}><strong>How did we begin?</strong></h5>
+                            <h5 className={'my-4'}><strong>My Work</strong></h5>
+                            <p></p>
                         </Col>
                     </Row>
                 </Container>

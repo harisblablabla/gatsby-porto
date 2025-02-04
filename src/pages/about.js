@@ -34,9 +34,7 @@ export default function About() {
                             <h2 style={{textAlign:'center'}}>about me</h2>
                             <p  className={`mt-5`}>{about[0]}</p>
                             <p  className={`mt-3`}>{about[1]}</p>
-                            <p  className={`mt-3`}>{about[2]}</p>
-                            <p  className={`mt-3`}>{about[3]}</p>
-                            <p  className={`mt-3`}>{about[4]} <a href = "mailto: haris.fadhilah21@gmail.com">this email</a> </p>
+                            <p  className={`mt-3`}>{about[2]} <a href = "mailto: haris.fadhilah21@gmail.com">this email</a></p>
                         </Col>
                     </Row>
                 </Container>

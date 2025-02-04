@@ -9,13 +9,11 @@ module.exports = {
 
   siteMetadata: {
     title: `Hi! Haris is Here`,
-    typing: [`Risk Management Consultant`,`Fullstack Engineer`,`UI Designer`],
+    typing: [`Frontend Web Engineer`,`Fullstack Software Engineer`,`Mobile Engineer`,`UI Designer`],
     link: [`https://medium.com/@haris.fadhilah21`,`https://github.com/harisblablabla`,`https://linkedin.com/in/harris-fadhilah/`],
-    about: [`Hi!, I’m Haris Fadhilah; living in Jakarta; loves sports, and films. (cinephile??)`,
-    `I am a highly motivated person with four years of experience in delivering innovative products. where I have demonstrated my ability to design and develop user-friendly applications. My strong technical background, combined with experience working on a product, enables me to bring a unique perspective to any project I work on.`,
-    `Throughout my career, I have honed my communication skills, working in Agile environments and collaborating with cross-functional teams. I am passionate about delivering high-quality products that meet the needs of end-users and drive business success.`,
-    `Currently work as a risk management consultant with a passion for improving financial literacy in Indonesian society. My mission is to empower individuals with the knowledge to effectively manage financial risks. Through my expertise in software development and financial consulting, I strive to create innovative solutions that make financial concepts and risk management accessible to everyone.`,
-    `Join me on this journey as we work together to enhance the financial well-being of individuals by send message to`,
+    about: [`Hello there! I’m Haris Fadhilah, a full-stack software engineer based in Jakarta with a passion for crafting seamless digital experiences. With five years of experience, I specialize in frontend web development using Next.js and React.js, as well as mobile app development with Flutter and SwiftUI. My expertise lies in building intuitive, high-performance applications that enhance user engagement and satisfaction.`,
+    `Throughout my career, I have worked on diverse projects, collaborating with cross-functional teams in Agile environments. My problem-solving skills and attention to detail allow me to create scalable and maintainable solutions that align with business goals. I am always eager to explore new technologies and refine my development workflow to stay ahead in the ever-evolving tech landscape.`,
+    `Currently, I embrace remote and freelance opportunities, which allow me the flexibility to work with clients around the globe and tackle a variety of projects. If you're looking for a developer who combines technical expertise with a creative approach, let's connect by send message to`,
   ]
   },
   plugins: [ 
