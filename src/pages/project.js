@@ -1,6 +1,7 @@
 import React, {lazy, Suspense} from 'react'
 import {Helmet} from 'react-helmet'
 import { Col, Row, Container } from 'react-bootstrap'
+import Loading from '../components/loading'
 
 
 export default function Project({data}) {
@@ -9,7 +10,7 @@ export default function Project({data}) {
     const Footer = lazy( () => import('./../components/footer'))
     const PhotoProject = lazy( () => import('./../components/photo-project'))
 
-    const renderLoader = () => <p>loading</p>
+    const renderLoader = () => <Loading />
     const isSSR = typeof window === "undefined"
 
 
@@ -23,7 +24,7 @@ export default function Project({data}) {
                       <meta name="keywords" content="project portfolio haris fadhilah list work" />
                       <meta name="robots" content="index, follow" />
                       <title>Project List</title>
-                      <link rel="canonical" href="https://haris.uno/project/"/>
+                      <link rel="canonical" href="https://haris.lol/project/"/>
                       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
                 </Helmet>
                 <Container>

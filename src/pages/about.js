@@ -2,6 +2,7 @@ import React, {lazy, Suspense} from 'react'
 import { Helmet } from 'react-helmet'
 import { Col, Row, Container} from 'react-bootstrap'
 import { useSiteMetadata } from './../utils/use-site-metadata'
+import Loading from '../components/loading'
 
 
 export default function About() {
@@ -9,7 +10,7 @@ export default function About() {
     const Navbar = lazy( () => import('./../components/navbar'))
     const Footer = lazy( () => import('./../components/footer'))
 
-    const renderLoader = () => <p>loading</p>
+    const renderLoader = () => <Loading />
     const isSSR = typeof window === "undefined"
 
     const { about } = useSiteMetadata()

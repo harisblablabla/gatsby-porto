@@ -1,10 +1,11 @@
 import React, {lazy, Suspense} from "react"
 import { Container } from "react-bootstrap"
+import Loading from "../components/loading"
 
 const Navbar = lazy( () => import('./../components/navbar'))
 const Footer = lazy( () => import('./../components/footer'))
 
-const renderLoader = () => <p>loading</p>
+const renderLoader = () => <Loading />
 const isSSR = typeof window === "undefined"
 
 const NotFoundPage = () => (

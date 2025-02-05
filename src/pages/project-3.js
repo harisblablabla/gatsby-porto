@@ -3,6 +3,7 @@ import {Helmet} from 'react-helmet'
 import { Container, Row, Col } from 'react-bootstrap'
 import { graphql } from 'gatsby'
 import { GatsbyImage } from "gatsby-plugin-image"
+import Loading from '../components/loading'
 
 
 export default function Project3(props) {
@@ -14,7 +15,7 @@ export default function Project3(props) {
       color: '#FF9D00'
     }
 
-    const renderLoader = () => <p>loading</p>
+    const renderLoader = () => <Loading/>
     const isSSR = typeof window === "undefined"
 
     const arrData = props.data.project.nodes

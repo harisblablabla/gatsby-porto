@@ -3,6 +3,7 @@ import {Helmet} from 'react-helmet'
 import { graphql } from 'gatsby'
 import { GatsbyImage } from "gatsby-plugin-image"
 import { Col, Row, Container } from 'react-bootstrap'
+import Loading from '../components/loading'
 
 
 export default function Project1(props) {
@@ -10,7 +11,7 @@ export default function Project1(props) {
     const Navbar = lazy( () => import('./../components/navbar'))
     const Footer = lazy( () => import('./../components/footer'))
 
-    const renderLoader = () => <p>loading</p>
+    const renderLoader = () => <Loading />
     const isSSR = typeof window === "undefined"
 
     const arrData = props.data.project.nodes
