@@ -22,7 +22,7 @@ export default function Project5(props) {
                   <meta name="keywords" content="life health insurance financial literacy risk management assets income replacement legacy haris fadhilah" />
                   <meta name="robots" content="index, follow" />
                   <title>ARISE</title>
-                  <link rel="canonical" href="https://haris.uno/project-5/"/>
+                  <link rel="canonical" href="https://haris.lol/project-5/"/>
                   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
                 </Helmet>
                 <Container>

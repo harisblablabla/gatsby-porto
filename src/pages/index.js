@@ -18,11 +18,11 @@ export default function Home() {
     <div className={styleIndex.bgIndex}>
             <Helmet htmlAttributes={{lang: 'en'}}>
                   <meta charSet="utf-8"/>
-                  <meta name="description" content="This is a portfolio website, owned by haris fadhilah. Haris is a software engineer based in Jakarta"/>
-                  <meta name="keywords" content="haris fadhilah is a software engineer frontend engineer ui designer web developer" />
+                  <meta name="description" content="This is a portfolio website, owned by haris fadhilah. Haris is a fullstack software engineer based in Jakarta"/>
+                  <meta name="keywords" content="haris fadhilah is a software engineer frontend engineer fullstack engineer ui designer web developer" />
                   <meta name="robots" content="index, follow" />
                   <title>Haris Fadhilah - Portfolio</title>
-                  <link rel="canonical" href="https://haris.uno"/>
+                  <link rel="canonical" href="https://haris.lol"/>
                   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"/>
             </Helmet>
        <Container>
